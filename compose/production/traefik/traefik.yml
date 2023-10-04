@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: 'Host(`django-slick-reporting.com`) || Host(`www.django-slick-reporting.com`)'
+      rule: 'Host(`dev.django-slick-reporting.com`) || Host(`www.dev.django-slick-reporting.com`)'
       entryPoints:
         - web-secure
       middlewares:
@@ -39,7 +39,7 @@ http:
         certResolver: letsencrypt
 
     web-media-router:
-      rule: '(Host(`django-slick-reporting.com`) || Host(`www.django-slick-reporting.com`)) && PathPrefix(`/media/`)'
+      rule: '(Host(`dev.django-slick-reporting.com`) || Host(`www.dev.django-slick-reporting.com`)) && PathPrefix(`/media/`)'
       entryPoints:
         - web-secure
       middlewares:
