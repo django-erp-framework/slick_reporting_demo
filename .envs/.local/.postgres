@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=slick_reporting_demo
+POSTGRES_USER=gnnhXtLlLiGMFMsSpUUXjgRyCMrxUQwi
+POSTGRES_PASSWORD=NredThrg0IHhCCx4fuRZG0GTE3DJay6Wmr0KDhuzl9uo35QNsx73kWOrs9XsltVy
